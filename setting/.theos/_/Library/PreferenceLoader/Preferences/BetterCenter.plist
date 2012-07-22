@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BetterCenter;
+	cell = PSLinkCell;
+	detail = BetterCenterListController;
+	icon = bettercenter.png;
+	isController = 1;
+	label = BetterCenter;
+    };
+}

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>BetterCenter</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>bettercenter.png</string>
+		<key>label</key>
+		<string>BetterCenter</string>
+	</dict>
+	<key>items</key>
+	<array>
+	
+						
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BetterCenter</string>
+			<key>footerText</key>
+			<string>Choose the Portrait and Landascape Height of the Notification Center</string>	
+		</dict>
+
+		
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Portrait Height</string>
+
+		</dict>
+
+		
+	<dict>
+          	<key>cell</key>
+          	<string>PSSliderCell</string>
+          	<key>default</key>
+          	<real>1024.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>1024.0</real>
+			<key>showValue</key>
+			<true/>
+          		<key>key</key>
+          		<string>portrait</string>
+          		<key>label</key>
+          		<string>portrait</string>
+          					<key>defaults</key>
+			<string>com.mpow.bettercenter</string>
+			<key>PostNotification</key>
+			<string>com.mpow.bettercenter.prefs</string>
+    		</dict>
+    		
+  	<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>Landscape Height</string>
+
+		</dict>
+
+		
+	<dict>
+          	<key>cell</key>
+          	<string>PSSliderCell</string>
+          	<key>default</key>
+          	<real>768.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>max</key>
+			<real>768.0</real>
+			<key>showValue</key>
+			<true/>
+          		<key>key</key>
+          		<string>landscape</string>
+          		<key>label</key>
+          		<string>landscape</string>
+          					<key>defaults</key>
+			<string>com.mpow.bettercenter</string>
+			<key>PostNotification</key>
+			<string>com.mpow.bettercenter.prefs</string>
+    		</dict>
+
+	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>	
+			<key>footerText</key>
+			<string>Try AnimateAll with BetterCenter, it animate your NotificationCenter, Homescreen and Lockscreen. Please consider to Donate or Buy my others Tweaks</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>	
+		</dict>
+		
+		<dict>
+	   		<key>cell</key>
+            <string>PSLinkCell</string>
+            <key>label</key>
+            <string>Download</string>
+            <key>icon</key>
+	         <string>../../../Applications/Cydia.app/Icon-Small.png</string>
+            <key>detail</key>
+            <string>Download</string>
+	</dict>
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>paypal.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>donate:</string>
+	  <key>label</key>
+	  <string>Please Donate</string>
+	  <key>id</key>
+	  <string>donate</string>
+	</dict>
+
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>tweet.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>twitter:</string>
+	  <key>label</key>
+	  <string>Follow me on Twitter</string>
+	  <key>id</key>
+	  <string>twitter</string>
+	</dict>
+		
+		
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/MobileSafari.app/icon-table.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>mysite:</string>
+	  <key>label</key>
+	  <string>WebSite</string>
+	  <key>id</key>
+	  <string>mysite</string>
+	</dict>
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/MobileMail.app/Icon-Small.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>sendEmailTo:</string>
+	  <key>label</key>
+	  <string>Email</string>
+	  <key>id</key>
+	  <string>sendEmailTo</string>
+	</dict>
+	
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>BetterCenter © MPow</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<string>true</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>wildcat</key>
+					<false/>
+					<key>voip</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		
+	</array>
+</dict>
+</plist>

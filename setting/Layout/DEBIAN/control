@@ -1,0 +1,10 @@
+Package: com.mpow.bettercenter
+Name: BetterCenter
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Customize the height of the Notification Center on the iPad, the default settings make the NC like IntelliscreenX (fullscreen height) but you can choose the portrait and landscape height. \n Created to work with AnimateAll HD \n Require iPad.
+Maintainer: MPow
+Author: MPow
+Section: Tweaks
+Installed-Size: 16

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Download</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>bettercenter.png</string>
+		<key>label</key>
+		<string>Download</string>
+	</dict>
+	<key>items</key>
+	<array>
+	
+						
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Download My Tweaks</string>
+			<key>footerText</key>
+			<string>BetterCenter is designed to work with AnimateAll on iPad, it is an awesome tweak that add animation in the homescreen, lockscreen and notification center. Consider to buy it to support me</string>	
+		</dict>
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/Cydia.app/Icon-Small.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>animateallhd:</string>
+	  <key>label</key>
+	  <string>Download AnimateAll HD</string>
+	  <key>id</key>
+	  <string>animateallhd</string>
+	</dict>
+
+<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/Cydia.app/Icon-Small.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>animateall:</string>
+	  <key>label</key>
+	  <string>Download AnimateAll</string>
+	  <key>id</key>
+	  <string>animateall</string>
+	</dict>
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/Cydia.app/Icon-Small.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>mysite:</string>
+	  <key>label</key>
+	  <string>My tweaks</string>
+	  <key>id</key>
+	  <string>mysite</string>
+	</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+		<string>Try AnimateAll with BetterCenter it animate your NotificationCenter, Homescreen and Lockscreen. Please consider to Donate or Buy my others Tweaks</string>
+		</dict>
+
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>paypal.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>donate:</string>
+	  <key>label</key>
+	  <string>Please Donate</string>
+	  <key>id</key>
+	  <string>donate</string>
+	</dict>
+
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>tweet.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>twitter:</string>
+	  <key>label</key>
+	  <string>Follow me on Twitter</string>
+	  <key>id</key>
+	  <string>twitter</string>
+	</dict>
+		
+		
+					<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/MobileSafari.app/icon-table.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>mysite:</string>
+	  <key>label</key>
+	  <string>WebSite</string>
+	  <key>id</key>
+	  <string>mysite</string>
+	</dict>
+	
+	<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>default</key>
+	<true/>
+  <key>alternateColors</key>
+	 <true/>
+	<key>enabled</key>
+	  <true/>
+	  <key>icon</key>
+	  <string>../../../Applications/MobileMail.app/Icon-Small.png</string>
+	  <key>isDestructive</key>
+	  <true/>
+	<key>action</key>
+	  <string>sendEmailTo:</string>
+	  <key>label</key>
+	  <string>Email</string>
+	  <key>id</key>
+	  <string>sendEmailTo</string>
+	</dict>
+	
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>BetterCenter © MPow</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<string>true</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<dict>
+					<key>wildcat</key>
+					<false/>
+					<key>voip</key>
+					<false/>
+				</dict>
+			</array>
+		</dict>
+		
+	</array>
+</dict>
+</plist>
